@@ -1,0 +1,9 @@
+@media (min-width: 400px) {
+    .profile-card {
+        min-width: 380px;
+    }
+
+    .link-list button {
+        min-width: 300px;
+    }
+}

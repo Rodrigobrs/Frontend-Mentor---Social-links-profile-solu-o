@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-color: hsl(0, 0%, 8%);
+}
+
+main {
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card {
+    background-color: hsl(0, 0%, 12%);
+    min-width: 320px;
+    min-height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    text-align: center;
+
+    border-radius: 15px;
+}
+
+.profile-main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.profile-main-info img {
+    height: 80px;
+    width: 80px;
+
+    margin-bottom: 30px;
+    border-radius: 40px;
+}
+
+.name {
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.local-info {
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    font-weight: 600;
+
+    margin-top: 10px;
+}
+
+.description {
+    color: hsl(0, 0%, 100%);
+    opacity: 70%;
+    
+    font-size: 14px;
+    font-weight: 400;
+
+    margin-bottom: 30px;
+}
+
+.link-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+.link-list button {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    font-size: 15px;
+    font-weight: 600;
+
+    border: none;
+    border-radius: 10px;
+
+    min-width: 280px;
+    min-height: 45px;
+
+    transition: 5s,ease-out;
+}
+
+.link-list button:hover {
+    cursor: pointer;
+    color: hsl(0, 0%, 8%);
+    background-color: hsl(75, 94%, 57%);
+    transition: 0.3s ease-in-out;
+}
